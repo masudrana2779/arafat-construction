@@ -1,0 +1,211 @@
+/*==========================================================*/
+/*----------------------------------------------------
+@File: Default Styles
+
+/*=====================================================================
+@Template Name: Arafat Construction
+@Author: Masud Rana
+@Developed By: Masud Rana
+@Developer URL: https://www.linkedin.com/in/masudrana2779/
+@Default Styles
+/*----------------------------------------------------*/
+/*Base font*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* bootstrap */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: normal; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl, ol, ul {
+  margin: 0; }
+
+p {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 24px; }
+
+a {
+  display: inline-block; }
+
+a,
+.btn,
+button {
+  text-decoration: none;
+  outline: none; }
+
+a:hover,
+a:focus,
+.btn:hover,
+.btn:focus,
+button:hover,
+button:focus {
+  text-decoration: none;
+  outline: none; }
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.categoryImg img {
+  width: 100%; }
+
+.categorySingleItem {
+  margin-bottom: 30px; }
+
+.cusRow {
+  margin: 0 -8px; }
+
+.cusPad {
+  padding: 0 8px; }
+
+.secTitle {
+  font-size: 20px;
+  line-height: 36px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 15px;
+  position: relative; }
+  .secTitle .viewAll {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: inline-block; }
+    .secTitle .viewAll a {
+      color: #9CA6B4;
+      font-size: 15px;
+      line-height: 18px;
+      display: inline-block;
+      position: relative; }
+      .secTitle .viewAll a:before {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        right: 0;
+        width: 0;
+        height: 2px;
+        background: #9CA6B4;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+      .secTitle .viewAll a:hover:before {
+        width: 100%;
+        right: auto;
+        left: 0; }
+
+.btnGlob {
+  color: #fff;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "revx_neue_demoregular", sans-serif;
+  border-radius: 0; }
+  .btnGlob.btnBrand {
+    background: #fb5d13; }
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10; }
+  .header .navbar {
+    padding: 0; }
+    .header .navbar .mainMenu ul {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .header .navbar .mainMenu ul .nav-item .nav-link {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 800;
+        text-transform: uppercase; }
+        .header .navbar .mainMenu ul .nav-item .nav-link.getAQuote {
+          background: #fb5d13;
+          padding: 18px 20px; }
+
+.bannerSliderItem {
+  background: url("../../../assets/img/banner/bannre_1.jpg") no-repeat scroll top/cover;
+  position: relative;
+  z-index: 1; }
+  .bannerSliderItem:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.64;
+    z-index: -1; }
+  .bannerSliderItem .bannerInner {
+    padding: 333px 0 130px; }
+    .bannerSliderItem .bannerInner .bannerContent {
+      max-width: 830px;
+      width: 100%; }
+      .bannerSliderItem .bannerInner .bannerContent .bannerTitle {
+        font-size: 62px;
+        line-height: 78px;
+        font-family: "revx_neue_demosemi_bold", sans-serif;
+        color: #fff;
+        margin-bottom: 5px; }
+      .bannerSliderItem .bannerInner .bannerContent .bannerPara {
+        color: #fb5d13;
+        font-size: 24px;
+        line-height: 36px;
+        font-family: "Montserrat", sans-serif;
+        margin-bottom: 50px; }
+      .bannerSliderItem .bannerInner .bannerContent .bannerBtn .btnIcon {
+        width: 75px;
+        height: 65px;
+        background: #0b2c3d;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+      .bannerSliderItem .bannerInner .bannerContent .bannerBtn .serviceBtn .btnWrap {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        .bannerSliderItem .bannerInner .bannerContent .bannerBtn .serviceBtn .btnWrap .btnGlob {
+          height: 65px;
+          width: 213px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center; }
+
+/*==========================================================*/

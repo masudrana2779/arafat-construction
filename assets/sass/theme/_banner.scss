@@ -1,0 +1,83 @@
+.bannerWrap {
+
+}
+
+.bannerSliderWrap {
+
+}
+
+.bannerSlider {
+
+}
+
+.bannerSliderItem {
+  background: url("../../../assets/img/banner/bannre_1.jpg") no-repeat scroll top / cover;
+  position: relative;
+  z-index: 1;
+
+  &:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.64;
+    z-index: -1;
+  }
+
+  .bannerInner {
+    padding: 333px 0 130px;
+
+    .bannerContent {
+      max-width: 830px;
+      width: 100%;
+
+      .bannerTitle {
+        font-size: $f62;
+        line-height: 78px;
+        font-family: $rnseb;
+        color: $white;
+        margin-bottom: 5px;
+      }
+
+      .bannerPara {
+        color: $brand;
+        font-size: $f24;
+        line-height: 36px;
+        font-family: $mon;
+        margin-bottom: 50px;
+      }
+
+      .bannerBtn {
+        .btnIcon {
+          width: 75px;
+          height: 65px;
+          background: #0b2c3d;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .btnIconInner {
+            img {
+
+            }
+          }
+        }
+        .serviceBtn {
+          .btnWrap {
+            display: flex;
+            align-items: center;
+            .btnGlob {
+              height: 65px;
+              width: 213px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

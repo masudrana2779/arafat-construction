@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $mon;
+  font-size: $f16;
+  line-height: 26px;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl, ol, ul {
+  margin: 0;
+}
+
+p {
+  font-size: $f14;
+  font-family: $mon;
+  line-height: 24px;
+}
+
+a {
+  display: inline-block;
+}
+a,
+.btn,
+button {
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover,
+a:focus,
+.btn:hover,
+.btn:focus,
+button:hover,
+button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: none;
+  box-shadow: none;
+}
+
+
+.categoryImg img {
+  width: 100%;
+}
+
+.categoryImg {
+}
+
+.categorySingleItem {
+  margin-bottom: 30px;
+}
+
+.cusRow {
+  margin: 0 -8px;
+}
+.cusPad {
+  padding: 0 8px;
+}
+
+.secTitle {
+  font-size: $f20;
+  line-height: 36px;
+  font-family: $mon;
+  margin-bottom: 15px;
+  position: relative;
+
+  .viewAll {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    a {
+      color: $light;
+      font-size: 15px;
+      line-height: 18px;
+      display: inline-block;
+      position: relative;
+      &:before {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        right: 0;
+        width: 0;
+        height: 2px;
+        background: $light;
+        transition: all 0.5s;
+      }
+      &:hover {
+        &:before {
+          width: 100%;
+          right: auto;
+          left: 0;
+        }
+      }
+    }
+  }
+}
+
+
+.btnGlob {
+  color: $white;
+  font-size: $f20;
+  line-height: 32px;
+  font-family: $rnr;
+  border-radius: 0;
+  &.btnSolid {
+
+  }
+  &.btnBrand {
+    background: $brand;
+  }
+}

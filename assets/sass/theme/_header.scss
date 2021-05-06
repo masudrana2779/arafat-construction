@@ -1,0 +1,37 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  .navbar {
+    padding: 0;
+    .logo {
+      a {
+        img {
+
+        }
+      }
+    }
+    .mainMenu {
+      ul {
+        align-items: center;
+        .nav-item {
+          .nav-link {
+            color: $white;
+            font-size: $f16;
+            font-weight: 800;
+            text-transform: uppercase;
+            &.active {
+
+            }
+            &.getAQuote {
+              background: $brand;
+              padding: 18px 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
