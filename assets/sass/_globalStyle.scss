@@ -97,19 +97,28 @@ button:focus {
 
   &.btnSolid {
     background: $dark;
+    &:hover {
+      &:before {
+        background: $brand;
+        width: 100%;
+        opacity: 1;
+      }
+    }
   }
 
   &.btnBrand {
     background: $brand;
+    &:hover {
+      &:before {
+        background: $dark;
+        width: 100%;
+        opacity: 1;
+      }
+    }
   }
 
   &:hover {
     color: $white;
-
-    &:before {
-      width: 100%;
-      opacity: 1;
-    }
   }
 }
 

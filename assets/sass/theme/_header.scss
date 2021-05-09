@@ -19,6 +19,31 @@
           }
         }
       }
+      .mainMenu {
+        ul {
+
+          .nav-item {
+
+            .nav-link {
+
+              &.active {
+
+              }
+
+              &.getAQuote {
+                background: $dark;
+                &:hover {
+                  color: $white;
+                  &:before {
+                    background: $brand;
+                    width: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 
@@ -48,8 +73,8 @@
 
           .nav-link {
             color: $white;
-            font-size: $f16;
-            font-weight: 800;
+            font-size: $f14;
+            font-weight: 500;
             text-transform: uppercase;
             padding: 0;
 
@@ -59,7 +84,31 @@
 
             &.getAQuote {
               background: $brand;
-              padding: 18px 20px;
+              border: 1px solid $brand;
+              padding: 10px 20px;
+              transition: all 0.5s;
+              position: relative;
+              z-index: 1;
+              &:before {
+                position: absolute;
+                content: "";
+                top: 0;
+                left: 0;
+                width: 0%;
+                height: 100%;
+                background: $brand;
+                transition: all 0.5s;
+                right: 0;
+                margin: 0 auto;
+                z-index: -1;
+              }
+              &:hover {
+                color: $white;
+                &:before {
+                  background: $dark;
+                  width: 100%;
+                }
+              }
             }
           }
         }
