@@ -1,0 +1,112 @@
+.aboutUsWrap {
+  padding: 85px 0 135px;
+}
+
+.aboutUsImgContent {
+  .aboutImgInner {
+    padding-left: 30px;
+    position: relative;
+    z-index: 1;
+
+    .experienceWrap {
+      background: $dark;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 12px 28px;
+
+      .experienceInner {
+        .experienceContent {
+          h4 {
+            color: $white;
+            font-size: $f20;
+            line-height: 60px;
+            font-family: $rnseb;
+            margin-bottom: -13px;
+
+            .year {
+              font-size: 47px;
+              line-height: 60px;
+            }
+          }
+
+          h3 {
+            color: $white;
+            font-size: $f24;
+            font-family: $rnseb;
+            line-height: 30px;
+          }
+        }
+      }
+    }
+
+    .borderShape {
+      width: 294px;
+      height: 324px;
+      border: 13px solid #e1e2e6;
+      position: absolute;
+      top: 90px;
+      left: -56px;
+      z-index: -1;
+    }
+
+    .aboutUsImg {
+      img {
+
+      }
+    }
+
+    .aboutShape {
+      position: absolute;
+      bottom: -40px;
+      right: -30px;
+      z-index: -1;
+
+      img {
+
+      }
+    }
+  }
+}
+
+.aboutContentWrap {
+  padding-top: 55px;
+  padding-left: 50px;
+
+  .aboutContentInner {
+
+    .aboutContent {
+      .secSubTitle {
+
+      }
+
+      .secTitle {
+
+      }
+
+      blockquote {
+        color: #072331;
+        font-size: $f15;
+        font-weight: 600;
+        line-height: 26px;
+        border-left: 3px solid $brand;
+        padding-left: 15px;
+        margin-bottom: 20px;
+      }
+
+      .aboutPare {
+        color: #072331;
+        font-size: $f16;
+        line-height: 26px;
+        text-align: justify;
+        margin-bottom: 40px;
+      }
+
+      .btnWrap {
+        .btnGlob {
+
+        }
+      }
+    }
+  }
+}

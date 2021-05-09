@@ -66,66 +66,68 @@ button:focus {
   -webkit-box-shadow: none;
   box-shadow: none; }
 
-.categoryImg img {
-  width: 100%; }
-
-.categorySingleItem {
-  margin-bottom: 30px; }
-
-.cusRow {
-  margin: 0 -8px; }
-
-.cusPad {
-  padding: 0 8px; }
-
-.secTitle {
-  font-size: 20px;
-  line-height: 36px;
-  font-family: "Montserrat", sans-serif;
-  margin-bottom: 15px;
-  position: relative; }
-  .secTitle .viewAll {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    display: inline-block; }
-    .secTitle .viewAll a {
-      color: #9CA6B4;
-      font-size: 15px;
-      line-height: 18px;
-      display: inline-block;
-      position: relative; }
-      .secTitle .viewAll a:before {
-        position: absolute;
-        content: '';
-        bottom: 0;
-        right: 0;
-        width: 0;
-        height: 2px;
-        background: #9CA6B4;
-        -webkit-transition: all 0.5s;
-        -o-transition: all 0.5s;
-        transition: all 0.5s; }
-      .secTitle .viewAll a:hover:before {
-        width: 100%;
-        right: auto;
-        left: 0; }
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1200px; } }
 
 .btnGlob {
   color: #fff;
-  font-size: 20px;
-  line-height: 32px;
+  font-size: 18px;
+  line-height: 28px;
   font-family: "revx_neue_demoregular", sans-serif;
   border-radius: 0;
-  position: relative; }
+  position: relative;
+  padding: 10px 45px;
+  border: none; }
+  .btnGlob:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #fb5d13;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    right: 0;
+    margin: 0 auto; }
   .btnGlob .btnText {
     position: relative;
     z-index: 1; }
+  .btnGlob.btnSolid {
+    background: #0b2c3d; }
   .btnGlob.btnBrand {
     background: #fb5d13; }
+  .btnGlob:hover {
+    color: #fff; }
+    .btnGlob:hover:before {
+      width: 100%;
+      opacity: 1; }
+
+.secSubTitle {
+  font-size: 16px;
+  color: #fb5d13;
+  font-family: "revx_neue_demosemi_bold", sans-serif;
+  text-transform: capitalize;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 15px; }
+  .secSubTitle:before {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: #fb5d13;
+    top: 2px;
+    left: 0; }
+
+.secTitle {
+  font-size: 48px;
+  line-height: 60px;
+  color: #080808;
+  font-family: "revx_neue_demosemi_bold", sans-serif;
+  margin-bottom: 35px; }
 
 .header {
   position: fixed;
@@ -259,18 +261,66 @@ button:focus {
           color: #fff;
           position: relative; }
           .bannerSliderItem .bannerInner .bannerContent .bannerBtn .serviceBtn .btnWrap .btnGlob:before {
-            position: absolute;
-            content: "";
-            top: 0;
-            left: 0;
-            width: 0%;
-            height: 100%;
             background: #0b2c3d;
-            -webkit-transition: all 0.5s;
-            -o-transition: all 0.5s;
-            transition: all 0.5s; }
-          .bannerSliderItem .bannerInner .bannerContent .bannerBtn .serviceBtn .btnWrap .btnGlob:hover:before {
-            width: 100%;
-            opacity: 1; }
+            right: auto; }
+
+.aboutUsWrap {
+  padding: 85px 0 135px; }
+
+.aboutUsImgContent .aboutImgInner {
+  padding-left: 30px;
+  position: relative;
+  z-index: 1; }
+  .aboutUsImgContent .aboutImgInner .experienceWrap {
+    background: #0b2c3d;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 12px 28px; }
+    .aboutUsImgContent .aboutImgInner .experienceWrap .experienceInner .experienceContent h4 {
+      color: #fff;
+      font-size: 20px;
+      line-height: 60px;
+      font-family: "revx_neue_demosemi_bold", sans-serif;
+      margin-bottom: -13px; }
+      .aboutUsImgContent .aboutImgInner .experienceWrap .experienceInner .experienceContent h4 .year {
+        font-size: 47px;
+        line-height: 60px; }
+    .aboutUsImgContent .aboutImgInner .experienceWrap .experienceInner .experienceContent h3 {
+      color: #fff;
+      font-size: 24px;
+      font-family: "revx_neue_demosemi_bold", sans-serif;
+      line-height: 30px; }
+  .aboutUsImgContent .aboutImgInner .borderShape {
+    width: 294px;
+    height: 324px;
+    border: 13px solid #e1e2e6;
+    position: absolute;
+    top: 90px;
+    left: -56px;
+    z-index: -1; }
+  .aboutUsImgContent .aboutImgInner .aboutShape {
+    position: absolute;
+    bottom: -40px;
+    right: -30px;
+    z-index: -1; }
+
+.aboutContentWrap {
+  padding-top: 55px;
+  padding-left: 50px; }
+  .aboutContentWrap .aboutContentInner .aboutContent blockquote {
+    color: #072331;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px;
+    border-left: 3px solid #fb5d13;
+    padding-left: 15px;
+    margin-bottom: 20px; }
+  .aboutContentWrap .aboutContentInner .aboutContent .aboutPare {
+    color: #072331;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    margin-bottom: 40px; }
 
 /*==========================================================*/

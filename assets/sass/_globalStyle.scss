@@ -30,6 +30,7 @@ p {
 a {
   display: inline-block;
 }
+
 a,
 .btn,
 button {
@@ -58,80 +59,84 @@ button:focus {
 }
 
 
-.categoryImg img {
-  width: 100%;
-}
-
-.categoryImg {
-}
-
-.categorySingleItem {
-  margin-bottom: 30px;
-}
-
-.cusRow {
-  margin: 0 -8px;
-}
-.cusPad {
-  padding: 0 8px;
-}
-
-.secTitle {
-  font-size: $f20;
-  line-height: 36px;
-  font-family: $mon;
-  margin-bottom: 15px;
-  position: relative;
-
-  .viewAll {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    display: inline-block;
-    a {
-      color: $light;
-      font-size: 15px;
-      line-height: 18px;
-      display: inline-block;
-      position: relative;
-      &:before {
-        position: absolute;
-        content: '';
-        bottom: 0;
-        right: 0;
-        width: 0;
-        height: 2px;
-        background: $light;
-        transition: all 0.5s;
-      }
-      &:hover {
-        &:before {
-          width: 100%;
-          right: auto;
-          left: 0;
-        }
-      }
-    }
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1200px;
   }
 }
 
 
 .btnGlob {
   color: $white;
-  font-size: $f20;
-  line-height: 32px;
+  font-size: $f18;
+  line-height: 28px;
   font-family: $rnr;
   border-radius: 0;
   position: relative;
+  padding: 10px 45px;
+  border: none;
+
+  &:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: $brand;
+    transition: all 0.5s;
+    //opacity: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
   .btnText {
     position: relative;
     z-index: 1;
   }
-  &.btnSolid {
 
+  &.btnSolid {
+    background: $dark;
   }
+
   &.btnBrand {
     background: $brand;
   }
+
+  &:hover {
+    color: $white;
+
+    &:before {
+      width: 100%;
+      opacity: 1;
+    }
+  }
+}
+
+.secSubTitle {
+  font-size: $f16;
+  color: $brand;
+  font-family: $rnseb;
+  text-transform: capitalize;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 15px;
+
+  &:before {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: $brand;
+    top: 2px;
+    left: 0;
+  }
+}
+
+.secTitle {
+  font-size: $f48;
+  line-height: 60px;
+  color: $brand_dark;
+  font-family: $rnseb;
+  margin-bottom: 35px;
 }
