@@ -4,6 +4,7 @@
   left: 0;
   width: 100%;
   z-index: 10;
+  padding: 50px 0;
   .navbar {
     padding: 0;
     .logo {
@@ -17,11 +18,16 @@
       ul {
         align-items: center;
         .nav-item {
+          margin-right: 30px;
+          &:last-child {
+            margin-right: 0;
+          }
           .nav-link {
             color: $white;
             font-size: $f16;
             font-weight: 800;
             text-transform: uppercase;
+            padding: 0;
             &.active {
 
             }

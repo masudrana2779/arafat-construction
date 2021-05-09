@@ -123,6 +123,11 @@ button:focus {
   line-height: 32px;
   font-family: $rnr;
   border-radius: 0;
+  position: relative;
+  .btnText {
+    position: relative;
+    z-index: 1;
+  }
   &.btnSolid {
 
   }
