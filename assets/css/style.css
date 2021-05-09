@@ -135,9 +135,23 @@ button:focus {
   left: 0;
   width: 100%;
   z-index: 10;
-  padding: 50px 0; }
+  padding: 50px 0;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+  .header.fixdHeader {
+    background: #0b2c3d;
+    padding: 15px 0; }
+    .header.fixdHeader .navbar .logo a img {
+      max-width: 250px; }
   .header .navbar {
     padding: 0; }
+    .header .navbar .logo a img {
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+      max-width: 310px;
+      width: 100%; }
     .header .navbar .mainMenu ul {
       -webkit-box-align: center;
       -ms-flex-align: center;
