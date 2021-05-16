@@ -1,0 +1,64 @@
+.latestWorkWrap {
+
+}
+
+.latestSlider {
+  .latestSliderItem {
+    .sliderInner {
+      .sliderContent {
+        position: relative;
+        margin-bottom: 80px;
+
+        .sliderImg {
+          img {
+
+          }
+        }
+
+        .sliderInfo {
+          position: absolute;
+          bottom: -60px;
+          width: 100%;
+          padding: 25px;
+
+          .infoInner {
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 13px rgba(218, 214, 234, 0.5);
+          }
+
+          h6 {
+            font-size: $f13;
+            font-family: $rnseb;
+            color: #bcbcbc;
+            margin-bottom: 10px;
+          }
+
+          h4 {
+            color: #030303;
+            font-family: $rnseb;
+            font-weight: 600;
+            font-size: $f22;
+          }
+
+          .readMore {
+            a {
+              color: $brand;
+              font-size: $f15;
+
+              .icon {
+                padding-left: 8px;
+                transition: all 0.5s;
+              }
+              &:hover {
+                .icon {
+                  padding-left: 15px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

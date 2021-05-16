@@ -70,6 +70,9 @@ button:focus {
   .container {
     max-width: 1200px; } }
 
+.displayInline {
+  display: inline-block; }
+
 .btnGlob {
   color: #fff;
   font-size: 18px;
@@ -501,5 +504,39 @@ button:focus {
     color: #fff; }
     .serviceSingleItem:hover .serviceInfo .readMore a .icon {
       color: #fff; }
+
+.latestSlider .latestSliderItem .sliderInner .sliderContent {
+  position: relative;
+  margin-bottom: 80px; }
+  .latestSlider .latestSliderItem .sliderInner .sliderContent .sliderInfo {
+    position: absolute;
+    bottom: -60px;
+    width: 100%;
+    padding: 25px; }
+    .latestSlider .latestSliderItem .sliderInner .sliderContent .sliderInfo .infoInner {
+      background: #fff;
+      padding: 20px;
+      -webkit-box-shadow: 0 0 13px rgba(218, 214, 234, 0.5);
+      box-shadow: 0 0 13px rgba(218, 214, 234, 0.5); }
+    .latestSlider .latestSliderItem .sliderInner .sliderContent .sliderInfo h6 {
+      font-size: 13px;
+      font-family: "revx_neue_demosemi_bold", sans-serif;
+      color: #bcbcbc;
+      margin-bottom: 10px; }
+    .latestSlider .latestSliderItem .sliderInner .sliderContent .sliderInfo h4 {
+      color: #030303;
+      font-family: "revx_neue_demosemi_bold", sans-serif;
+      font-weight: 600;
+      font-size: 22px; }
+    .latestSlider .latestSliderItem .sliderInner .sliderContent .sliderInfo .readMore a {
+      color: #fb5d13;
+      font-size: 15px; }
+      .latestSlider .latestSliderItem .sliderInner .sliderContent .sliderInfo .readMore a .icon {
+        padding-left: 8px;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+      .latestSlider .latestSliderItem .sliderInner .sliderContent .sliderInfo .readMore a:hover .icon {
+        padding-left: 15px; }
 
 /*==========================================================*/

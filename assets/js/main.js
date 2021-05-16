@@ -26,6 +26,13 @@
 
             headerFixed();
         });
+
+        $(".latestSlider").owlCarousel({
+            items: 3,
+            margin: 30,
+            // nav: true
+        });
+
     });
 
 }(jQuery);

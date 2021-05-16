@@ -65,7 +65,9 @@ button:focus {
   }
 }
 
-
+.displayInline {
+  display: inline-block;
+}
 .btnGlob {
   color: $white;
   font-size: $f18;
