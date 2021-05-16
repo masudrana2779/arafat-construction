@@ -404,4 +404,63 @@ button:focus {
   .callUsWrap .callUsImgContent .callUsImgInner {
     margin-top: -155px; }
 
+.ourServiceWrap {
+  padding: 110px 0 90px; }
+  .ourServiceWrap .serviceTop .secSubTitle {
+    display: inline-block; }
+
+.serviceSingleItem {
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0 0 13px rgba(218, 214, 234, 0.5);
+  box-shadow: 0 0 13px rgba(218, 214, 234, 0.5);
+  padding: 50px 35px;
+  border-radius: 8px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+  .serviceSingleItem .serviceInner .serviceIcon {
+    margin-bottom: 30px; }
+  .serviceSingleItem .serviceInner .serviceInfo .serviceTitle {
+    font-size: 24px;
+    font-family: "revx_neue_demosemi_bold", sans-serif;
+    line-height: 30px;
+    margin-bottom: 25px;
+    color: #030303;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+  .serviceSingleItem .serviceInner .serviceInfo .servicePara {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #072331;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    margin-bottom: 25px; }
+  .serviceSingleItem .serviceInner .serviceInfo .readMore a {
+    font-size: 16px;
+    color: #072331;
+    font-weight: 500;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s; }
+    .serviceSingleItem .serviceInner .serviceInfo .readMore a .icon {
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+      color: #072331; }
+    .serviceSingleItem .serviceInner .serviceInfo .readMore a:hover .icon {
+      padding-left: 10px; }
+  .serviceSingleItem:hover {
+    background: #fb5d13; }
+    .serviceSingleItem:hover .serviceInfo .serviceTitle {
+      color: #fff; }
+    .serviceSingleItem:hover .serviceInfo .servicePara {
+      color: #fff; }
+    .serviceSingleItem:hover .serviceInfo .readMore a {
+      color: #fff; }
+      .serviceSingleItem:hover .serviceInfo .readMore a .icon {
+        color: #fff; }
+
 /*==========================================================*/
