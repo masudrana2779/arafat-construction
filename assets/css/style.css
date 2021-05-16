@@ -409,6 +409,30 @@ button:focus {
   .ourServiceWrap .serviceTop .secSubTitle {
     display: inline-block; }
 
+.serviceSingleI:nth-child(1) .serviceSingleItem:before {
+  top: 0;
+  left: 0; }
+
+.serviceSingleI:nth-child(2) .serviceSingleItem:before {
+  bottom: 0;
+  left: 0; }
+
+.serviceSingleI:nth-child(3) .serviceSingleItem:before {
+  right: 0;
+  top: 0; }
+
+.serviceSingleI:nth-child(4) .serviceSingleItem:before {
+  left: 0;
+  bottom: 0; }
+
+.serviceSingleI:nth-child(5) .serviceSingleItem:before {
+  top: 0;
+  right: 0; }
+
+.serviceSingleI:nth-child(6) .serviceSingleItem:before {
+  bottom: 0;
+  right: 0; }
+
 .serviceSingleItem {
   margin-bottom: 30px;
   -webkit-box-shadow: 0 0 13px rgba(218, 214, 234, 0.5);
@@ -417,7 +441,20 @@ button:focus {
   border-radius: 8px;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
-  transition: all 0.5s; }
+  transition: all 0.5s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1; }
+  .serviceSingleItem:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #ffbea2;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: -1; }
   .serviceSingleItem .serviceInner .serviceIcon {
     margin-bottom: 30px; }
   .serviceSingleItem .serviceInner .serviceInfo .serviceTitle {
@@ -452,15 +489,17 @@ button:focus {
       color: #072331; }
     .serviceSingleItem .serviceInner .serviceInfo .readMore a:hover .icon {
       padding-left: 10px; }
-  .serviceSingleItem:hover {
-    background: #fb5d13; }
-    .serviceSingleItem:hover .serviceInfo .serviceTitle {
+  .serviceSingleItem:hover:before {
+    background: #fb5d13;
+    width: 100%;
+    height: 100%; }
+  .serviceSingleItem:hover .serviceInfo .serviceTitle {
+    color: #fff; }
+  .serviceSingleItem:hover .serviceInfo .servicePara {
+    color: #fff; }
+  .serviceSingleItem:hover .serviceInfo .readMore a {
+    color: #fff; }
+    .serviceSingleItem:hover .serviceInfo .readMore a .icon {
       color: #fff; }
-    .serviceSingleItem:hover .serviceInfo .servicePara {
-      color: #fff; }
-    .serviceSingleItem:hover .serviceInfo .readMore a {
-      color: #fff; }
-      .serviceSingleItem:hover .serviceInfo .readMore a .icon {
-        color: #fff; }
 
 /*==========================================================*/
