@@ -117,3 +117,14 @@
     }
   }
 }
+@media (max-width: 1024px) {
+  .header .navbar .logo a img {
+    max-width: 170px;
+  }
+  .header.fixdHeader .navbar .logo a img {
+    max-width: 150px;
+  }
+  .header .navbar .mainMenu ul .nav-item {
+    margin-right: 20px;
+  }
+}

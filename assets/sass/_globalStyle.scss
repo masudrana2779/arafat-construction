@@ -151,3 +151,19 @@ button:focus {
   font-family: $rnseb;
   margin-bottom: 35px;
 }
+
+
+
+@media (max-width: 1024px) {
+  .secTitle {
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
+
+@media (max-width: 768px) {
+  .secTitle {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}

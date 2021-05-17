@@ -139,6 +139,16 @@ button:focus {
   font-family: "revx_neue_demosemi_bold", sans-serif;
   margin-bottom: 35px; }
 
+@media (max-width: 1024px) {
+  .secTitle {
+    font-size: 36px;
+    line-height: 44px; } }
+
+@media (max-width: 768px) {
+  .secTitle {
+    font-size: 30px;
+    line-height: 38px; } }
+
 .header {
   position: fixed;
   top: 0;
@@ -213,6 +223,14 @@ button:focus {
               .header .navbar .mainMenu ul .nav-item .nav-link.getAQuote:hover:before {
                 background: #0b2c3d;
                 width: 100%; }
+
+@media (max-width: 1024px) {
+  .header .navbar .logo a img {
+    max-width: 170px; }
+  .header.fixdHeader .navbar .logo a img {
+    max-width: 150px; }
+  .header .navbar .mainMenu ul .nav-item {
+    margin-right: 20px; } }
 
 .bannerSliderItem {
   background: url("../../../assets/img/banner/bannre_1.jpg") no-repeat scroll top/cover;
@@ -322,6 +340,16 @@ button:focus {
             background: #0b2c3d;
             right: auto; }
 
+@media (max-width: 768px) {
+  .bannerSliderItem .bannerInner .bannerContent .Automated {
+    font-size: 90px;
+    top: -100px; }
+  .bannerSliderItem .bannerInner .bannerContent .bannerTitle {
+    font-size: 50px;
+    line-height: 60px; }
+  .bannerSliderItem .bannerInner {
+    padding: 200px 0 100px; } }
+
 .aboutUsWrap {
   padding: 85px 0 135px; }
 
@@ -381,6 +409,17 @@ button:focus {
     text-align: justify;
     margin-bottom: 40px; }
 
+@media (max-width: 1024px) {
+  .aboutUsWrap {
+    padding: 60px 0 80px; } }
+
+@media (max-width: 768px) {
+  .aboutUsImgContent .aboutImgInner .borderShape {
+    width: 115px;
+    height: 250px;
+    top: 30px;
+    left: -5px; } }
+
 .callUsWrap {
   background: url("../../../assets/img/call-us/call-us-bg.jpg") no-repeat scroll top left/cover;
   position: relative;
@@ -410,6 +449,22 @@ button:focus {
     color: #fff; }
   .callUsWrap .callUsImgContent .callUsImgInner {
     margin-top: -155px; }
+
+@media (max-width: 1440px) {
+  .callUsWrap {
+    padding-top: 40px; }
+  .callUsWrap:after {
+    background: -webkit-linear-gradient(123deg, #fb5d13 50%, #fb5d1300 0%);
+    background: -o-linear-gradient(123deg, #fb5d13 50%, #fb5d1300 0%);
+    background: linear-gradient(-33deg, #fb5d13 50%, #fb5d1300 0%); } }
+
+@media (max-width: 768px) {
+  .callUsWrap .callUsImgContent .callUsImgInner {
+    margin-top: -50px; }
+  .callUsWrap:after {
+    background: -webkit-linear-gradient(130deg, #fb5d13 50%, #fb5d1300 0%);
+    background: -o-linear-gradient(130deg, #fb5d13 50%, #fb5d1300 0%);
+    background: linear-gradient(-40deg, #fb5d13 50%, #fb5d1300 0%); } }
 
 .ourServiceWrap {
   padding: 110px 0 90px;
@@ -452,7 +507,8 @@ button:focus {
   transition: all 0.5s;
   position: relative;
   overflow: hidden;
-  z-index: 1; }
+  z-index: 1;
+  background: #fff; }
   .serviceSingleItem:before {
     position: absolute;
     content: "";
@@ -509,6 +565,10 @@ button:focus {
     color: #fff; }
     .serviceSingleItem:hover .serviceInfo .readMore a .icon {
       color: #fff; }
+
+@media (max-width: 1024px) {
+  .ourServiceWrap {
+    padding: 50px 0 40px; } }
 
 .latestWorkWrap {
   position: relative;
@@ -611,6 +671,11 @@ button:focus {
         .latestSlider .latestSliderItem .sliderInner .sliderContent .sliderInfo .readMore a:hover .icon {
           padding-left: 15px; }
 
+@media (max-width: 1024px) {
+  .latestWorkWrap {
+    padding: 50px 0 0px;
+    overflow: hidden; } }
+
 .experienceWrap {
   background: #0b2c3d;
   padding: 135px 0 83px;
@@ -655,9 +720,21 @@ button:focus {
       position: absolute;
       right: 0;
       top: 0;
-      height: 100%; }
+      height: 100%;
+      text-align: right; }
       .experienceWrap .experienceRightContent .rightImg img {
         height: 100%; }
+
+@media (max-width: 1440px) {
+  .experienceWrap .experienceRightContent .rightImg img {
+    width: 80%; } }
+
+@media (max-width: 1024px) {
+  .experienceWrap .experienceRightContent .rightImg {
+    position: static; }
+  .experienceWrap .experienceRightContent .rightImg img {
+    width: auto;
+    height: auto; } }
 
 .contact_form_wrap {
   padding: 110px 0 90px; }

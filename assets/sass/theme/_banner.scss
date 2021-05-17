@@ -135,3 +135,16 @@
     }
   }
 }
+@media (max-width: 768px) {
+  .bannerSliderItem .bannerInner .bannerContent .Automated {
+    font-size: 90px;
+    top: -100px;
+  }
+  .bannerSliderItem .bannerInner .bannerContent .bannerTitle {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .bannerSliderItem .bannerInner {
+    padding: 200px 0 100px;
+  }
+}

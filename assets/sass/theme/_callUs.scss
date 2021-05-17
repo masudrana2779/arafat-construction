@@ -52,3 +52,21 @@
     }
   }
 }
+
+@media (max-width: 1440px) {
+  .callUsWrap {
+    padding-top: 40px;
+  }
+  .callUsWrap:after {
+    background: linear-gradient(-33deg, #fb5d13 50%, #fb5d1300 0%);
+  }
+}
+
+@media (max-width: 768px) {
+  .callUsWrap .callUsImgContent .callUsImgInner {
+    margin-top: -50px;
+  }
+  .callUsWrap:after {
+    background: linear-gradient(-40deg, #fb5d13 50%, #fb5d1300 0%);
+  }
+}

@@ -110,3 +110,17 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .aboutUsWrap {
+    padding: 60px 0 80px;
+  }
+}
+@media (max-width: 768px) {
+  .aboutUsImgContent .aboutImgInner .borderShape {
+    width: 115px;
+    height: 250px;
+    top: 30px;
+    left: -5px;
+  }
+}

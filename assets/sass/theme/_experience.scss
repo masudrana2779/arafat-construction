@@ -61,9 +61,25 @@
       right: 0;
       top: 0;
       height: 100%;
+      text-align: right;
       img {
         height: 100%;
       }
     }
+  }
+}
+
+@media (max-width: 1440px) {
+  .experienceWrap .experienceRightContent .rightImg img {
+    width: 80%;
+  }
+}
+@media (max-width: 1024px) {
+  .experienceWrap .experienceRightContent .rightImg {
+    position: static;
+  }
+  .experienceWrap .experienceRightContent .rightImg img {
+    width: auto;
+    height: auto;
   }
 }
