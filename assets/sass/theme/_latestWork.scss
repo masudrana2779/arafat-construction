@@ -1,8 +1,61 @@
 .latestWorkWrap {
+  position: relative;
+  padding: 110px 0 45px;
 
+  .shape_1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .shape_2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 }
 
 .latestSlider {
+  .owl-prev,
+  .owl-next {
+    width: 60px;
+    height: 60px;
+    background: $brand !important;
+    border-radius: 50%;
+    position: relative;
+
+    &:before {
+      position: absolute;
+      content: "→";
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: $brand !important;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 25px;
+      color: #fff;
+
+    }
+
+    span {
+      display: none;
+    }
+
+    &.disabled {
+
+    }
+  }
+
+  .owl-next {
+    &.disabled {
+
+    }
+  }
+
   .latestSliderItem {
     .sliderInner {
       .sliderContent {
@@ -50,6 +103,7 @@
                 padding-left: 8px;
                 transition: all 0.5s;
               }
+
               &:hover {
                 .icon {
                   padding-left: 15px;

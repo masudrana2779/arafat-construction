@@ -27,11 +27,29 @@
             headerFixed();
         });
 
-        $(".latestSlider").owlCarousel({
-            items: 3,
-            margin: 30,
-            // nav: true
-        });
+        function latestSlider() {
+            $(".latestSlider").owlCarousel({
+                items: 3,
+                margin: 30,
+                nav: true
+            });
+        }
+
+        latestSlider();
+
+        function footerLogoSlider() {
+            $(".footerLogoSlider").owlCarousel({
+                items: 5,
+                margin: 30,
+                // nav: true,
+                freeDrag: true,
+                loop: true,
+                autoplay: true,
+                slideBy: 1,
+            });
+        }
+
+        footerLogoSlider();
 
     });
 

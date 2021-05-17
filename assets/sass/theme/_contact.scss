@@ -1,54 +1,6 @@
-.contact_info {
-  padding-top: 120px;
-  margin-bottom: 95px;
-
-  .contact_content {
-    border-bottom: 1px solid #e6e9f1;
-  }
-}
-
-.contact_info_single {
-  margin-bottom: 52px;
-
-  .media {
-    .media-left {
-      padding-right: 20px;
-
-      &.pr_30 {
-        padding-right: 30px;
-      }
-
-      .icon {
-        i {
-          color: #959baf;
-          font-size: 50px;
-        }
-      }
-    }
-
-    .media-body {
-      .contact_info_content {
-        h5 {
-          color: #051441;
-          font-weight: 700;
-          font-size: 20px;
-          line-height: 20px;
-          margin-bottom: 20px;
-        }
-
-        .p {
-          color: #646c84;
-          font-weight: 400;
-          font-size: 18px;
-          line-height: 26px;
-        }
-      }
-    }
-  }
-}
 
 .contact_form_wrap {
-  padding: 110px 0 80px;
+  padding: 110px 0 90px;
   .get_touch {
     color: #646c84;
     font-size: 20px;
