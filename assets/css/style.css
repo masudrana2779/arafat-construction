@@ -11,7 +11,6 @@
 /*----------------------------------------------------*/
 /*Base font*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap");
 /* bootstrap */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
@@ -770,5 +769,81 @@ button:focus {
   width: 100%;
   height: 100%;
   border: none; }
+
+.footer {
+  background: #0b2c3d;
+  padding: 50px 0; }
+
+.footerSingleItem .footerTitle {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "revx_neue_demosemi_bold", sans-serif;
+  margin-bottom: 20px; }
+
+.footerSingleItem .footerPara {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-right: 40px;
+  text-align: justify; }
+
+.footerSingleItem .footerMenu {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .footerSingleItem .footerMenu li {
+    margin-bottom: 10px; }
+    .footerSingleItem .footerMenu li a {
+      color: #fff;
+      font-family: "Montserrat", sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 30px;
+      position: relative;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+      .footerSingleItem .footerMenu li a:before {
+        position: absolute;
+        content: '';
+        left: 10px;
+        opacity: 0;
+        top: 15px;
+        width: 5px;
+        height: 1px;
+        background: #fff;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+      .footerSingleItem .footerMenu li a:hover {
+        padding-left: 10px; }
+        .footerSingleItem .footerMenu li a:hover:before {
+          opacity: 1;
+          left: 0; }
+
+.footerSingleItem .footerContact .footerLogo {
+  margin-bottom: 15px; }
+  .footerSingleItem .footerContact .footerLogo img {
+    max-width: 190px;
+    width: 100%; }
+
+.footerSingleItem .footerContact .footerAddress p {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 10px; }
+  .footerSingleItem .footerContact .footerAddress p i {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    font-size: 20px; }
 
 /*==========================================================*/
