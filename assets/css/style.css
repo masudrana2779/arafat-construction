@@ -151,7 +151,9 @@ button:focus {
   transition: all 0.5s; }
   .header.fixdHeader {
     background: #0b2c3d;
-    padding: 15px 0; }
+    padding: 15px 0;
+    -webkit-box-shadow: 0 5px 10px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.1); }
     .header.fixdHeader .navbar .logo a img {
       max-width: 250px; }
     .header.fixdHeader .navbar .mainMenu ul .nav-item .nav-link.getAQuote {
