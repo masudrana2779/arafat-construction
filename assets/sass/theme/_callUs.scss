@@ -70,3 +70,9 @@
     background: linear-gradient(-40deg, #fb5d13 50%, #fb5d1300 0%);
   }
 }
+
+@media (max-width: 767px) {
+  .callUsWrap .callUsImgContent .callUsImgInner {
+    margin-top: 60px;
+  }
+}

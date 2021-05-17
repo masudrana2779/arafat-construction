@@ -135,6 +135,7 @@
     }
   }
 }
+
 @media (max-width: 768px) {
   .bannerSliderItem .bannerInner .bannerContent .Automated {
     font-size: 90px;
@@ -146,5 +147,43 @@
   }
   .bannerSliderItem .bannerInner {
     padding: 200px 0 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .bannerSliderItem .bannerInner .bannerContent .Automated {
+    font-size: 60px;
+    top: -100px;
+  }
+  .bannerSliderItem .bannerInner .bannerContent .bannerTitle {
+    font-size: 34px;
+    line-height: 44px;
+  }
+  .bannerSliderItem .bannerInner .bannerContent .bannerPara {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+  }
+  .bannerSliderItem .bannerInner {
+    padding: 120px 0 50px;
+  }
+  .header .navbar .mainMenu ul {
+    display: block;
+    text-align: left;
+    margin: 30px 0 10px;
+  }
+  .header .navbar .mainMenu ul li {
+    margin-bottom: 15px;
+  }
+  .header .navbar .mainMenu ul .nav-item .nav-link.getAQuote {
+    display: inline-block;
+    margin-top: 10px;
+  }
+}
+
+@media (max-height: 414px) {
+  .header .navbar .mainMenu ul {
+    overflow-x: hidden;
+    height: 150px;
   }
 }

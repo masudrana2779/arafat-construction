@@ -150,12 +150,14 @@
     }
   }
 }
+
 .footerLogoSliderWrap {
   .footerLogoSlider {
     background: $brand;
     border-radius: 10px;
     padding: 20px 0;
     transform: translateY(-50%);
+
     .logoSliderItem {
       img {
         max-width: 150px;
@@ -163,5 +165,27 @@
         margin: 0 auto;
       }
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .footerSingleItem {
+    margin-bottom: 50px;
+  }
+  .footer .footerTop {
+    padding-bottom: 20px;
+  }
+  .footerLogoSliderWrap .footerLogoSlider {
+    padding: 0;
+  }
+  .footerBottom .row.align-items-center {
+    flex-direction: column-reverse;
+  }
+  .footerBottom {
+    padding: 40px 0;
+  }
+  .footerBottom .footerSocial ul {
+    margin-bottom: 30px;
+    justify-content: center;
   }
 }

@@ -124,3 +124,18 @@
     left: -5px;
   }
 }
+@media (max-width: 767px) {
+  .aboutUsImgContent .aboutImgInner {
+    padding-right: 20px;
+  }
+  .aboutUsImgContent .aboutImgInner .aboutShape {
+    bottom: -30px;
+    right: 0;
+  }
+  .aboutContentWrap {
+    padding-left: 0;
+  }
+  .aboutUsWrap {
+    padding-bottom: 50px;
+  }
+}

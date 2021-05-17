@@ -27,11 +27,45 @@
             headerFixed();
         });
 
+        function bannerSlider() {
+            $(".bannerSlider").owlCarousel({
+                items: 1,
+                // margin: 30,
+                nav: false,
+                loop: true,
+                autoplay: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    480: {
+                        items: 1,
+                    },
+                    768: {
+                        items: 1
+                    }
+                }
+            });
+        }
+
+        bannerSlider();
+
         function latestSlider() {
             $(".latestSlider").owlCarousel({
                 items: 3,
                 // margin: 30,
-                nav: true
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    480: {
+                        items: 2,
+                    },
+                    768: {
+                        items: 2
+                    }
+                }
             });
         }
 
@@ -46,6 +80,17 @@
                 loop: true,
                 autoplay: true,
                 slideBy: 1,
+                responsive: {
+                    0: {
+                        items: 2,
+                    },
+                    480: {
+                        items: 2,
+                    },
+                    768: {
+                        items: 3
+                    }
+                }
             });
         }
 
