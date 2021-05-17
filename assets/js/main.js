@@ -50,6 +50,8 @@
 
         bannerSlider();
 
+
+
         function latestSlider() {
             $(".latestSlider").owlCarousel({
                 items: 3,
