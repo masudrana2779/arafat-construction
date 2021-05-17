@@ -30,7 +30,7 @@
         function latestSlider() {
             $(".latestSlider").owlCarousel({
                 items: 3,
-                margin: 30,
+                // margin: 30,
                 nav: true
             });
         }
