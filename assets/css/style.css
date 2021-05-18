@@ -502,7 +502,7 @@ button:focus {
     padding-bottom: 50px; } }
 
 .callUsWrap {
-  background: url("../../../assets/img/call-us/call-us-bg.jpg") no-repeat scroll top left/cover;
+  background: url("./../../assets/img/call-us/call-us-bg.jpg") no-repeat scroll top left/cover;
   position: relative;
   z-index: 1;
   padding-top: 93px; }
