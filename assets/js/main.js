@@ -19,9 +19,9 @@
         $(window).on('scroll', function () {
             var $scTop = $(window).scrollTop();
             if ($scTop < 120) {
-                $('.gotop').hide(300);
+                $('.gotop').hide(120);
             } else {
-                $('.gotop').show(300);
+                $('.gotop').show(120);
             }
 
             headerFixed();
