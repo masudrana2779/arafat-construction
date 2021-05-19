@@ -19,9 +19,9 @@
         $(window).on('scroll', function () {
             var $scTop = $(window).scrollTop();
             if ($scTop < 120) {
-                $('.go_to_top').hide(300);
+                $('.gotop').hide(300);
             } else {
-                $('.go_to_top').show(300);
+                $('.gotop').show(300);
             }
 
             headerFixed();
@@ -36,9 +36,11 @@
                 responsive: {
                     0: {
                         items: 1,
+                        nav: false,
                     },
                     480: {
                         items: 1,
+                        nav: false,
                     },
                     768: {
                         items: 1
@@ -59,9 +61,11 @@
                 responsive: {
                     0: {
                         items: 1,
+                        nav: false,
                     },
                     480: {
                         items: 2,
+                        nav: false,
                     },
                     768: {
                         items: 2
