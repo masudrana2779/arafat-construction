@@ -30,8 +30,7 @@
         function bannerSlider() {
             $(".bannerSlider").owlCarousel({
                 items: 1,
-                // margin: 30,
-                nav: false,
+                nav: true,
                 loop: true,
                 autoplay: true,
                 responsive: {

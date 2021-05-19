@@ -68,6 +68,7 @@ button:focus {
 .displayInline {
   display: inline-block;
 }
+
 .btnGlob {
   color: $white;
   font-size: $f18;
@@ -99,6 +100,7 @@ button:focus {
 
   &.btnSolid {
     background: $dark;
+
     &:hover {
       &:before {
         background: $brand;
@@ -110,6 +112,7 @@ button:focus {
 
   &.btnBrand {
     background: $brand;
+
     &:hover {
       &:before {
         background: $dark;
@@ -153,7 +156,6 @@ button:focus {
 }
 
 
-
 @media (max-width: 1024px) {
   .secTitle {
     font-size: 36px;
@@ -166,4 +168,23 @@ button:focus {
     font-size: 30px;
     line-height: 38px;
   }
+}
+
+.gotop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+}
+
+.gotop a {
+  width: 50px;
+  height: 50px;
+  background: $brand;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 30px;
 }
