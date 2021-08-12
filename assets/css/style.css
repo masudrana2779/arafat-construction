@@ -202,7 +202,7 @@ button:focus {
       -webkit-transition: all 0.5s;
       -o-transition: all 0.5s;
       transition: all 0.5s;
-      max-width: 285px;
+      max-width: 250px;
       width: 100%; }
     .header .navbar .navbar-toggler {
       padding: 0;
@@ -619,9 +619,9 @@ button:focus {
     right: 0;
     width: 45%;
     height: 100%;
-    background: -webkit-linear-gradient(117deg, #fb5d13 50%, #fb5d1300 0%);
-    background: -o-linear-gradient(117deg, #fb5d13 50%, #fb5d1300 0%);
-    background: linear-gradient(-27deg, #fb5d13 50%, #fb5d1300 0%);
+    background: -webkit-linear-gradient(117deg, #e31b22 50%, transparent 0%);
+    background: -o-linear-gradient(117deg, #e31b22 50%, transparent 0%);
+    background: linear-gradient(-27deg, #e31b22 50%, transparent 0%);
     z-index: -1; }
   .callUsWrap .callUsContent .secTitle {
     color: #fff; }
